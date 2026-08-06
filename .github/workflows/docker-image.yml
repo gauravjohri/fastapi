@@ -1,0 +1,16 @@
+name: My Fisrt CI
+
+on: 
+  push: 
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v4
+
+      - name: Print Message
+        run: echo "hello world"
+
+  
