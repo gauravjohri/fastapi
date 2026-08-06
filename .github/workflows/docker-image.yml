@@ -34,8 +34,6 @@ jobs:
       - name: Show logs
         run: docker compose logs
       
-      - uses: action/checkout@v4
-      
       - uses: docker/login-action@v7
         with:
           username: ${{secrets.DOCKER_USERNAME}}
