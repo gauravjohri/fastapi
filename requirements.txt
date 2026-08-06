@@ -6,3 +6,4 @@ pymysql
 aiokafka
 python-jose 
 passlib[bcrypt]
+pytest
